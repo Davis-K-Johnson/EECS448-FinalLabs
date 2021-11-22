@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title> Web Store </title>
+        <script type="text/javascript" src="store.js"></script>
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+    </head>
+
+    <body>
+    <form action="store.php" onsubmit="checkForm(event)" method="post">
+
+
+        <label for="username">Username: </label>
+        <input type="email" id="username" name="username"></text><br>
+
+        <label for="password">Password: </label>
+        <input type="password" id="password" name="password"></text><br>
+
+
+
+        <p class="title">Available Items:</p><br>
+        <label for="item1">Titanium Spork (Single): $12</label><br>
+        <label for="item1">Quantity:</label>
+        <input type="number" id="item1" name="item1">
+        <br>
+
+        <label for="item2">Bulk silverware (12 sets): $50</label><br>
+        <label for="item2">Quantity:</label>
+        <input type="number" id="item2" name="item2">
+        <br>
+        
+        <label for="item3">Giant glass spoon: $100</label><br>
+        <label for="item3">Quantity:</label>
+        <input type="number" id="item3" name="item3">
+        <br>
+
+
+
+
+        <p class="title">Shipping Type:</p><br>
+        <input type="radio" id="Free 7 Day" name="ship" checked="checked" value="Free 7 Day">
+        <label for="Free 7 Day">Free 7 Day</label><br>
+
+        <input type="radio" id="$5 Three Day" name="ship" value="$5 Three Day">
+        <label for="$5 Three Day">$5 Three Day</label><br>
+
+        <input type="radio" id="$50 Overnight" name="ship" value="$50 Overnight">
+        <label for="$50 Overnight">$50 Overnight</label><br><br>
+
+        <input type="reset" value="Reset Fields"><br><br>
+        
+        <input type="submit" value="Submit Order">
+
+    </form>
+    </body>
+</html>

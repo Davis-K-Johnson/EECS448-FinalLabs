@@ -1,0 +1,37 @@
+p
+{
+
+    font-size: 30;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+}
+
+p.title
+{
+
+    font-size: 30;
+    font-style: italic;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+}
+
+label
+{
+
+    font-style: italic;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+}
+
+table
+{
+
+    background-color: rgb(44, 204, 129);
+    display: inline-block;
+}
+
+body
+{
+    background-image: url(silverware.jpg); background-size: 100%;
+    background-attachment: fixed;
+}
